@@ -41,10 +41,6 @@ nav{
     justify-content: space-between;
 }
 
-.section-title{
-    
-}
-
 .section-title h1{
     text-align: center;
 }
@@ -67,4 +63,32 @@ nav{
 
 .character h3{
     text-align: center;
+}
+
+/*character pages*/
+
+.char-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 1140px;
+    margin: auto;
+    justify-content:left;
+    display: flex;
+}
+
+.char-content{
+    width: 50%;
+}
+
+.img-container img{
+    max-width: 500px;
+}
+
+.text{
+    text-align:justify;
+    color: black;
+}
+
+li{
+    padding-top: 5px;
 }
