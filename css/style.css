@@ -53,8 +53,6 @@ nav{
     padding-left: 50px;
     padding-right: 50px;
     display: inline-block;
-    /*align-items: center;
-    justify-items: center;*/
 }
 
 .character img{
@@ -63,6 +61,27 @@ nav{
 
 .character h3{
     text-align: center;
+}
+
+
+.ref{
+    text-align: left;
+    color: #D82A2A;
+}
+
+.ref a{
+    text-decoration: underline;
+    color: #D82A2A;
+}
+
+.credits{
+    text-align: center;
+}
+
+hr{
+    height: 1px;
+    background-color: #D82A2A;
+    color:#D82A2A;
 }
 
 /*character pages*/
@@ -92,3 +111,4 @@ nav{
 li{
     padding-top: 5px;
 }
+
